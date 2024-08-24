@@ -56,13 +56,9 @@ npm run build
 
 The output will be in the `dist/` directory.
 
-## License
 
-This project is open-source and available under the [MIT License](./LICENSE).
 
-## Contact
 
-For any questions or feedback, please reach out via [email@example.com](mailto:email@example.com).
 ```
 
 Feel free to modify the content as per your specific project details or additional features you may want to include!
