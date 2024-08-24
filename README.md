@@ -46,13 +46,6 @@ This project is a dashboard application built using Vite and React. The dashboar
 - **`public/`**: Contains static files like images and the `index.html`.
 - **`node_modules/`**: Contains all the installed npm packages.
 
-## Build for Production
-
-To build the application for production, use:
-
-```bash
-npm run build
-```
 
 The output will be in the `dist/` directory.
 
