@@ -19,13 +19,13 @@ const HomePage = () => {
            
             <AddWidget show={show} handleClose={handleClose} />
             <span className='d-flex align-items-center justify-content-between'>
-                <h4 className='head'>CNAPP Dashboard</h4>
+                <h4 className='head'>Linchpin's Dashboard</h4>
                 <Button onClick={handleShow}  className=''>
                             Add widget <IoIosAdd size={20} color='white' />
                         </Button>
                 </span>
 
-                <h5 className='head mt-3'>CSPM Executive Dashboard (PIE CHART)</h5>
+                <h5 className='head mt-3'>Dashboard PIE CHART</h5>
                 <div className=' border bg-grey my-2 rounded-4 ms-2' style={{
                     width:'99%'
                 }}>
@@ -33,14 +33,14 @@ const HomePage = () => {
                 </div>
             </div>
             <div className='mt-3 row justify-content-start w-100 mx-auto'>
-                <h5 className='head'>CWPP Dashboard (BAR CHART)</h5>
+                <h5 className='head'>Dashboard BAR CHART</h5>
                 <div className=' border bg-grey my-2 rounded-4 ms-2' style={{width:'99%'}}>
                     <BarChart />
                 </div>
             </div>
 
             <div className='mt-3 row justify-content-start w-100 mx-auto'>
-                <h5 className='head'>Registry Scan</h5>
+                <h5 className='head'>Dashboard Radar Chart</h5>
                 <div className=' border bg-grey my-2 rounded-4 ms-2' style={{width:'99%'}}>
                     <RadarChart />
                 </div>
